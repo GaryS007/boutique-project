@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-7_d!6cen^#-3nt@dma8k5x%=t5rzn(nwre#8#-7fp_r^_@=+5%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-garys007-boutiqueprojec-iahqcv09m3o.ws-eu104.gitpod.io',]  # noqa
+ALLOWED_HOSTS = ['8000-garys007-boutiqueprojec-iahqcv09m3o.ws-eu105.gitpod.io',]  # noqa
 
 
 # Application definition
@@ -73,6 +73,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
@@ -158,3 +159,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
