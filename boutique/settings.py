@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-7_d!6cen^#-3nt@dma8k5x%=t5rzn(nwre#8#-7fp_r^_@=+5%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['boutique-ado-gary.herokuapp.com', '8000-garys007-boutiqueprojec-tev4avgg7tl.ws-eu106.gitpod.io',]  # noqa
+ALLOWED_HOSTS = ['boutique-ado-gary.herokuapp.com', '8000-garys007-boutiqueprojec-tev4avgg7tl.ws-eu106.gitpod.io', 'boutique-ado-gary-c77afabc7ff6.herokuapp.com',]  # noqa
 
 
 # Application definition
